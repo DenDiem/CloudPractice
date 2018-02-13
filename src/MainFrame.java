@@ -323,7 +323,7 @@ class CreatePlot extends JPanel {
 		h = Double.parseDouble(MainFrame.textfield4.getText());
 
 		// set size
-		int x0 = getWidth() / 15;
+		int x0 = getWidth() / 5;
 		int y0 = getHeight() / 2;
 
 		double change0x = 1.0;
