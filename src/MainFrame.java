@@ -10,10 +10,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 
-/**
- * software for creating graphics  Create
- * by	Juliya Velyka
- */
+
 public class MainFrame extends JFrame {
 	// set scale
 
@@ -326,7 +323,7 @@ class CreatePlot extends JPanel {
 		h = Double.parseDouble(MainFrame.textfield4.getText());
 
 		// set size
-		int x0 = getWidth() / 5;
+		int x0 = getWidth() / 15;
 		int y0 = getHeight() / 2;
 
 		double change0x = 1.0;
