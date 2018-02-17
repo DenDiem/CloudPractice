@@ -332,7 +332,7 @@ class CreatePlot extends JPanel {
 		double rn, xn, yn;
 		
 
-		//double size = (2 * Math.PI - 0.01) / h + 100000;
+		//double size = (2 * Math.PI - 0.01) / h + 1;
 		System.out.println();
 
 	/*	int[] arrX = new int[(int) size];
