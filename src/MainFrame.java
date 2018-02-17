@@ -326,19 +326,13 @@ class CreatePlot extends JPanel {
 		int x0 = getWidth() / 5;
 		int y0 = getHeight() / 2;
 
-		double change0x = 1.0;
-		// change scale of graphics
-		//while ((x0 + (int) (h * scale) + (int) ((a - a / 10) * scale)) > x0 * 10) {
-		//	scale = scale / 2;
-		//	change0x *= 2;
-		//}
-
+		double change0x = 1.0
 	//add Arr for Plot
 
 		double rn, xn, yn;
 		
 
-		//double size = (2 * Math.PI - 0.01) / h + 1;
+		//double size = (2 * Math.PI - 0.01) / h + 100000;
 		System.out.println();
 
 	/*	int[] arrX = new int[(int) size];
